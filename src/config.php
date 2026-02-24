@@ -1,11 +1,8 @@
 <?php
 
-$conn = new mysqli('localhost','root','sasin@123','shoppingstore');
+$conn = new mysqli("localhost", "root", "", "shoppingstore");
 
-if(!$conn)
-    {
-        echo"Error!:{$conn->connect_error}";
-    }
-
-
+if (!$conn) {
+    echo "Error!:{$conn->connect_error}";
+}
 ?>
